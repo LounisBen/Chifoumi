@@ -1,0 +1,56 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url('chifoumi.jpg') no-repeat center center fixed; /* Ajout de l'image d'arrière-plan */
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fond coloré semi-transparent */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px; /* Police plus grande pour le titre */
+    margin-bottom: 20px;
+}
+
+.instructions {
+    font-size: 24px; /* Police plus grande pour les instructions */
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.game-button {
+    font-size: 24px; /* Police encore plus grande pour les boutons */
+    padding: 20px 30px; /* Taille des boutons encore plus grande */
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.game-button:hover {
+    background-color: #0056b3;
+}
+
+.resultat {
+    font-size: 24px; /* Police plus grande pour le résultat */
+    margin-top: 20px;
+}
+
